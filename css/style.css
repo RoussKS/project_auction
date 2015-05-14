@@ -1,0 +1,231 @@
+/* Added custom fonts */
+@font-face {
+    font-family: PFHighwayGothic;
+    src: url('../fonts/otf/PFHighwayGothic-Regular.otf');
+    src: url('../fonts/woff/PFHighwayGothic-Regular.woff');
+}
+@font-face {
+    font-family: PFHighwayGothic;
+    src: url('../fonts/otf/PFHighwayGothic-Bold.otf');
+    src: url('../fonts//woff/PFHighwayGothic-Bold.woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: PFHighwayGothic;
+    src: url('../fonts/otf/PFHighwayGothic-Italic.otf');
+    src: url('../fonts/woff/PFHighwayGothic-Italic.woff');
+    font-style: italic;
+}
+
+/* Χοντρικά το CSS. Θέλει δουλειά προφανώς στις λεπτομέρειες */
+body {
+
+	margin: 0;
+	padding: 0px;
+	height: 100%;
+	background-color: #DFDFDE;
+}
+
+/* Modifications over twitter bootstrap elements */
+.navbar {
+	margin-bottom:0;
+}
+
+.navbar-inverse .navbar-inner {
+	background-image: linear-gradient(to bottom, #222277, #111166);
+	border-color:#25257A;
+}
+
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+	background-color:#222277;
+}
+
+/* Αυτό είναι το header_2 */
+.jumbotron {
+	background-color: #000055;
+	padding:50px;
+}
+/* Twitter bootstrap modifications end */
+
+.top_menu {
+	position: relative;
+	display: block;
+	min-width: 100px;
+	width: 15%;
+	float: right;
+}
+
+.top_menu a:link, a:visited {
+	display: inline;
+	font-weight: bold;
+	color: #FFFFFF;
+/* ΔΗμιουργεί πρόβλημα	background-color: #A3A3FF; */
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.top_menu a:hover, a:active {
+/* Δημιουργεί Πρόβλημα	background-color: #2E2EB8; */
+}
+
+
+#side_menu {
+	/* margin-left: -150px;
+	left: 150px;
+	width: 150px;
+	position: absolute;
+	height: 100%;
+	overflow-y: auto; */
+	z-index:2;
+	font-weight:bold;
+}
+
+#side_menu ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+#side_menu li {
+	background-color: #f6f6f6;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+#side_menu a, a:link, a:visited {
+	color: #005580;
+	text-decoration: none;
+}
+	
+#side_menu a:hover {
+	text-decoration: underline;
+}
+
+#side_menu a:active {
+	text-decoration: underline;
+}
+
+#side_menu h4 {
+	margin: 10px;
+	padding: 5px;
+	background-color: #9999FF;
+	color: #25257A;
+}
+
+#main {
+	padding: 10px;
+	/* padding-left:30px; */
+	/* margin-left: 0%; */
+	padding-bottom: 80px;
+	color:#000;
+}
+
+/* Added */
+#main ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+#main a {
+	color: #005580;
+	text-decoration: none;
+}
+
+#main a:hover, a:active {
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #2E5CE6;
+	height: 60px;
+	/* position: fixed; */
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+}
+
+#push {
+    height: 60px;
+}
+
+/*
+footer p {
+	line-height: 50px;
+}
+*/
+footer a, a:link, a:visited{
+	color: #000066;
+}
+
+footer a:hover, a:active {
+	text-decoration: underline;
+}
+
+/* Classes */
+.index-auction-image {
+	float:left;
+	width:60px;
+	height:60px;
+}
+
+.index-auction {
+	margin-top:15px;
+}
+
+.auction-body {
+	height:20px;
+	overflow:hidden;
+}
+
+.index-auction > a {
+	display:block;
+	margin-left:65px;
+}
+
+.messages-wrap {
+	border:solid 1px #444;
+	max-height:200px;
+	overflow:auto;
+}
+
+#messages-content {
+	margin-top:30px;
+	padding:15px;
+	border:solid 1px #444;
+}
+
+a.message-handle.seen {
+	font-weight:normal;
+}
+
+a.message-handle.selected {
+	background-color:#8989B7;
+}
+
+a.message-handle {
+	padding:3px 3px 3px 20px;
+	display:block;
+	height:20px;
+}
+	
+a.message-handle:hover {
+	color:#FFF;
+	background-color:#25257A !important;
+}
+
+.row-top_margin {
+  margin-top: 30px;
+/*  *zoom: 1; */
+}
+
+.row-top_margin:before,
+.row-top_margin:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.row-top_margin:after {
+  clear: both;
+}
