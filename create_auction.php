@@ -103,3 +103,4 @@ while ($cat = mysqli_fetch_array($query, MYSQLI_BOTH)) {
 render_footer(); // layout.php included
 
 mysqli_close($dbc);
+?>

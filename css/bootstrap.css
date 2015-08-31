@@ -7,6 +7,25 @@
  *
  * Designed and built with all the love in the world by @mdo and @fat.
  */
+
+/* Added custom fonts */
+@font-face {
+	font-family: PFHighwayGothic;
+	src: url('../fonts/otf/PFHighwayGothic-Regular.otf');
+	src: url('../fonts/woff/PFHighwayGothic-Regular.woff');
+} 
+@font-face {
+	font-family: PFHighwayGothic;
+	src: url('../fonts/otf/PFHighwayGothic-Bold.otf');
+	src: url('../fonts/woff/PFHighwayGothic-Bold.woff');
+	font-weight: bold;
+}
+@font-face {
+	font-family: PFHighwayGothic;
+	src: url('../fonts/otf/PFHighwayGothic-Italic.otf');
+	src: url('../fonts/woff/PFHighwayGothic-Italic.woff');
+	font-style: italic;
+}
  
 .clearfix {
   *zoom: 1;

@@ -122,3 +122,5 @@ mysqli_close ($dbc); // Closing database
 $_SESSION['success'] = 'Your auction is created successfully';
 header('Location: auction.php?id=' . $auction . ''); // redirection to the created auction
 exit(0);
+
+?>

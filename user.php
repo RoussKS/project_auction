@@ -25,7 +25,7 @@ class User {
 		} else if(isset($_COOKIE['user_id'])) {
 			// Session ended but user has "remember me" checked
 			$temporary_id = $_COOKIE['user_id'];
-			// I fetch the id from cookie and renew the session
+			// I fetch the id from cokkie and renew the session
 			$_SESSION['user_id'] = $temporary_id;
 			$_SESSION['password'] = $_COOKIE['password'];
 		}

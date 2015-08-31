@@ -37,7 +37,7 @@ function render_main(){
 			<a class="brand" href="index.php">Project Auction</a>
 				<div class="nav-collapse collapse">
 				<ul class="nav">
-					<li'.(($page == '/create_auction.php') ? $active : '').'><a href="create_auction.php"><i class="icon-plus-sign icon-white"></i> Create an Auction</a></li>
+					<li'.(($page == 'http://www.roussks.eu/project_auction/create_auction.php') ? $active : '').'><a href="create_auction.php"><i class="icon-plus-sign icon-white"></i> Create an Auction</a></li>
 					<li'.(($page == '/message.php') ? $active : '').'><a href="message.php"><i class="icon-envelope icon-white"></i> Messages</a></li>
 					<li'.(($page == '/contact.php') ? $active : '').'><a href="contact.php"><i class="icon-asterisk icon-white"></i> Contact</a></li>
 				</ul>

@@ -1,25 +1,5 @@
-/* Added custom fonts */
-@font-face {
-    font-family: PFHighwayGothic;
-    src: url('../fonts/otf/PFHighwayGothic-Regular.otf');
-    src: url('../fonts/woff/PFHighwayGothic-Regular.woff');
-}
-@font-face {
-    font-family: PFHighwayGothic;
-    src: url('../fonts/otf/PFHighwayGothic-Bold.otf');
-    src: url('../fonts//woff/PFHighwayGothic-Bold.woff');
-    font-weight: bold;
-}
-@font-face {
-    font-family: PFHighwayGothic;
-    src: url('../fonts/otf/PFHighwayGothic-Italic.otf');
-    src: url('../fonts/woff/PFHighwayGothic-Italic.woff');
-    font-style: italic;
-}
-
 /* Χοντρικά το CSS. Θέλει δουλειά προφανώς στις λεπτομέρειες */
 body {
-
 	margin: 0;
 	padding: 0px;
 	height: 100%;
