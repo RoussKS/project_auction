@@ -1,4 +1,5 @@
-# DO NOT USE. Not maintained/developed/supported. Dissertation project
+# DO NOT USE. Not maintained/developed/supported.
+Dissertation project
 
 ## project_auction
 Online Auctions Project
