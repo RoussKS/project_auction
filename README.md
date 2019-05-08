@@ -1,4 +1,4 @@
-#DO NOT USE. Not maintained/developed/supported. Dissertation project
+# DO NOT USE. Not maintained/developed/supported. Dissertation project
 
 ## project_auction
 Online Auctions Project
@@ -13,7 +13,7 @@ These include, registering a user, login, logout, creating an auction, messaging
 
 Yet, there is a lot more work to be done, in order to put it in production.
 
-###Notice
+### Notice
 I do not have any intention of updating the current implementation, as it needs a lot of changes.
 Additionally, this was not the project's initial goal, as states, it was just a dissertation project.
 
